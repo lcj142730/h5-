@@ -1,0 +1,230 @@
+*{
+    margin: 0;padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none
+}
+#app{
+    width: 100%;
+}
+#apply{
+    width: 100%;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background: #fff;
+}
+.header img{
+    width: 160px;
+}
+.Logo{
+    display: block;
+    width: 100%
+}
+.banner{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    /* top:0px; */
+    background-image: linear-gradient(133deg,#fb9dff,#6797ff);
+    overflow: hidden;
+}
+.text{
+    position: absolute;
+    top: 224px;
+    left:470px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    line-height: 46px;
+}
+.banner_img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.banner_Img{
+    display: none;
+}
+.setp{
+    text-align: center;
+    margin-top: -92px;
+    margin-bottom: 74px;
+}
+.setp_wrapper{
+    display: block;
+    margin: auto;
+    height: 280px;
+    width: 1040px;
+    overflow: hidden;
+    background: #fff;
+    -webkit-box-shadow: 0 0 30px 0 #aaa;
+    box-shadow: 0 0 30px 0 #aaa;
+    border-radius: 4px;
+    position: relative;
+    z-index: 10;
+}
+.setp_title{
+    margin: 44px auto 40px;
+    font-size: 22px;
+    color: #222;
+    line-height: 22px;
+    font-weight: 500;
+}
+.setp_img{
+    width: 700px;
+    margin-bottom: 20px;
+}
+.setp_connet{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 22px;
+}
+.setp_each{
+    display: inline-block;
+    font-size: 12px;
+    width: 238px;
+    height: 44px;
+    margin-right: 38px;
+    margin-left: 38px;
+    text-align: left;
+}
+.user{
+    text-align: center;
+}
+.reminder{
+    color: #222;
+    display: inline-block;
+    width: 470px;
+}
+
+.user_title{
+    font-size: 22px;
+    line-height: 22px;
+    height: 22px;
+    border-left: 3px solid #479dff;
+    padding-left: 6px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.detail{
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-part{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.self_info{
+    margin-top:20px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+}
+.each_item{
+    margin-top: 20px;
+}
+.each_item label{
+    display: inline-block;
+    width: 68px;
+    margin-right: 24px;
+    vertical-align: middle;
+    text-align: left;
+}
+.each_item .Inp{
+    width: 376px;
+    border: 1px solid hsla(0,0%,80.8%,.541);
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 17px;
+    outline: none;
+    -webkit-appearance: none;
+}
+.radio{
+    width: 380px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 19px;
+}
+.radio_sex{
+    display: inline-block;
+    margin-left: 50px;
+}
+.form_text{
+    height: 200px;
+    resize: none;
+    width: 376px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 17px;
+    outline: none;
+}
+.top_label{
+    vertical-align: top;
+    margin-top: -320px;
+}
+.qiye_info{
+    margin-top:20px;
+}
+.btn_submit{
+    cursor: pointer;
+    margin: 36px 0 0 94px;
+    width: 376px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background: #a4cafa;
+    -webkit-box-shadow: 0 4px 10px 0 rgba(149,202,252,.5);
+    box-shadow: 0 4px 10px 0 rgba(149,202,252,.5);
+    border-radius: 40px;
+    color: #fff;
+    outline: 0;
+}
+.success_container{
+    height: 257px;
+}
+.footer{
+    box-sizing: border-box;
+    color: #999;
+    padding-top: 28px;
+    height: 107px;
+    width: 100%;
+    text-align: center;
+    background: #3f3f3f;
+    font-size: 14px;
+}
+.contact{
+    margin-top: -58px;
+    margin-bottom: 38px;
+}
+.linkS{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.linkS span{
+    margin-right: 54px;
+    margin-left: 54px;
+}
+.linkS span a{
+    color: #999;
+    text-decoration: none;
+}
+.footer_text{
+    
+}
